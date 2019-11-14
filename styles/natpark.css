@@ -9,7 +9,7 @@ body{
 }
 #map{
   height:600px;
-  width: 80%;
+  width: 100%;
   border: 5px solid;
 }
 #container{
@@ -18,13 +18,19 @@ flex-wrap: wrap;
 justify-content: space-between;
 flex-direction: column;
 align-items: center;
+max-width: 700px;
+margin: auto;
 }
 h1{
+  font-family: 'Literata', 'Yrsa','Noto Serif SC', Serif;
+}
+h3{
   font-family: 'Literata', 'Yrsa','Noto Serif SC', Serif;
 }
 p{
 font-family: 'Literata', 'Yrsa','Noto Serif SC', Serif;
   padding: 1rem;
+  max-width: 100%;
 }
 footer{
   font-family: 'Archivo Narrow', 'Roboto Condensed', sans-serif;
@@ -43,7 +49,7 @@ p{
   padding: 1rem;
 }
 #map{
-  height: 450px;
+  height: 400px;
   width: 100%;
   border: none;
 }
